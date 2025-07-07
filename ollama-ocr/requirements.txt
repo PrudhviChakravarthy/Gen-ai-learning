@@ -1,0 +1,6 @@
+markitdown[all]
+openai
+python-magic-bin
+pypdf2
+pdf2image
+pillow
