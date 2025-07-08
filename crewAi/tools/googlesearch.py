@@ -14,7 +14,7 @@ class GoogleSearchTool(BaseTool):
     
     def _run(self, query: str) -> str:
         """Search Google and return links"""
-        return asyncio.run(self._arun(query))
+        return asyncio.run(self._arun(query))   
     
     async def _arun(self, query: str) -> str:
         """Async version of Google search"""

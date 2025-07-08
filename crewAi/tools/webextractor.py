@@ -55,7 +55,7 @@ class WebContentExtractor(BaseTool):
                     'url': url,
                     'title': title,
                     'meta_description': meta_desc,
-                    'content': content[:10000],  # Limit content to prevent memory issues
+                    'content': content[:100000],  # Limit content to prevent memory issues
                     'content_length': len(content),
                     'extracted_at': datetime.now().isoformat()
                 })
