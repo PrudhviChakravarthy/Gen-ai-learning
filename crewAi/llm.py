@@ -1,3 +1,3 @@
 from crewai import  LLM
 
-llm=LLM(model="ollama/gemma3:4b", base_url="http://localhost:11434", temperature=0, top_p=0.94)
+llm=LLM(model="openai/gemma3:4b", base_url="http://localhost:11434/v1", temperature=0, top_p=0.94, api_key="fake")
